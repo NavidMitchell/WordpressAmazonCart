@@ -1,0 +1,11 @@
+.paginator { padding-top: 0px; margin-left: auto; margin-right: auto; }
+.paginator a, .pageList .this-page { padding: 0px 2px; border: solid 1px #ddd; background: #fff; text-decoration: none; }
+.paginator a:visited { padding: 0px 2px; border: solid 1px #ddd; background: #fff; text-decoration: none; }
+.paginator .atstart { margin-right: 10px; padding: 0px 2px; border: solid 1px #ddd; background: #fff; color: #aaa; }
+.paginator .prev { margin-right: 10px; padding: 0px 2px; border: solid 2px #ddd; background: #fff; }
+.paginator .break { padding: 2px 6px; border: none; background: #fff; text-decoration: none; }
+.paginator .next { margin-left: 10px; padding: 0px 2px; border: solid 2px #ddd; background: #fff;}
+.paginator .atend { margin-left: 10px; padding: 0px 2px; border: solid 1px #ddd; background: #fff; color: #aaa; }
+.paginator .this-page {padding: 0px 2px; border-color: #999; font-weight: bold; background: #fff; color: #FF0084; }
+.paginator a:hover {color: #fff; background: #0063DC; border-color: #036; text-decoration: none;}
+.pages div.results { text-align: center; font: 11px/15px Arial, Helvetica; color: #aaa; margin-top: 0px; }

@@ -1,0 +1,86 @@
+/************ Detail Styles ****************************/
+.ov-image{
+	border:0;	
+}
+
+.ov-small-button{
+	cursor:pointer; 
+}
+
+.ov-button{
+	cursor:pointer; 
+	margin:0 4px 0 0; 
+	padding: .4em 1em; 	
+}
+
+.ov-float-right-button{
+	float:right;
+	cursor:pointer; 
+	margin:0 4px 0 0; 
+	padding: .4em 1em; 	
+}
+
+.ov-product-information-label{
+	font-size: medium;
+	font-weight: bold;
+	color: #0066CC;
+	margin:0 0 0.25em;
+}
+
+.ov-product-price-label{
+	font-weight: bolder;
+}
+
+.ov-product-price{
+	font-weight: bold;
+	color: #990000;
+}
+
+.ov-product-information-divider{
+	border:none;
+	height:1px;
+	margin:3px 0;
+	clear:both;
+}
+
+.ov-product-information{
+	margin:0.5em 0 0 25px;
+}
+
+
+/**************** Product Brief Styles *********************************/
+.ov-item-list{
+	border-bottom: 1px solid #DDD;
+	padding-top:10px;
+	clear:both;
+	float:left;
+	width:100%;
+}
+
+
+.ov-wrapper{
+   float:left;
+   width:100%;
+}
+
+.ov-left{
+   float:left;
+   width:20%;
+}
+.ov-middle{
+  float:left;
+  width:60%;
+}
+.ov-right{
+   float:left;
+   width:20%;
+}
+
+.ov-product-price-brief{
+	width:100%;
+	padding-right: 10px;
+	text-align:right;
+	font-weight: bold;
+	color: #990000;	
+}
+

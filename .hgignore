@@ -1,0 +1,9 @@
+
+syntax: regexp
+^source/OV/Cache/CachedPluginLoader\.php$
+syntax: regexp
+^source/OV/Cache/CachedServiceLocator\.php$
+syntax: glob
+source/OV/Cache/smartycache/**
+syntax: glob
+source/OV/Cache/smartycompile/**

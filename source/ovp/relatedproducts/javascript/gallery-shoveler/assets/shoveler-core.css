@@ -1,0 +1,96 @@
+
+.yui3-shoveler-body {
+	padding: 6px;
+	border: 1px solid #9dc4d8;
+	clear: both;
+	
+	-moz-border-radius: 0 0 6px 6px;
+	-webkit-border-radius: 0 0 6px 6px;
+	border-radius: 0 0 6px 6px;
+	height: 180px;
+	position: relative;
+	
+	font-family:arial,helvetica,clean,sans-serif;
+	font-size:13px;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.231;
+}
+
+.yui3-shoveler-cells {
+	margin: 0 50px;
+	height: 100%;
+}
+
+.yui3-shoveler-cell {
+	float: left;
+	margin: 0 5px;
+	height: 100%;
+	overflow: hidden;
+}
+
+#shoveler li.yui3-shoveler-cell{
+	width:30%;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	padding:0;
+}
+
+.yui3-shoveler-start {
+	cursor: pointer;
+	color: blue;
+	text-decoration: underline;
+}
+.yui3-shoveler-page-text {
+	float: right;
+}
+
+.yui3-shoveler-button-left,
+.yui3-shoveler-button-right {
+	position: absolute;
+	top: 35%;
+	cursor: pointer;
+}
+
+.yui3-shoveler-button-left {
+	left: 6px;
+}
+
+.yui3-shoveler-button-right {
+	background-position: -25px 0;
+	right: 6px;
+}
+
+.yui3-shoveler-button-right.yui3-shoveler-button-on {
+	background-position: -25px -50px;
+}
+
+.yui3-shoveler-button-left.yui3-shoveler-button-on {
+	background-position: 0px -50px;
+}
+
+.yui3-shoveler-button-left,
+.yui3-shoveler-button-right {
+	height: 50px;
+	width: 25px;
+	background-image: url("http://g-ecx.images-amazon.com/images/G/01/x-locale/personalization/shoveler/left-right-arrow-semi-rd._V236573507_.gif");
+}
+
+.yui3-shoveler-cell img {
+	border:0 none;
+	display: block;
+	margin: auto;
+}
+
+.yui3-shoveler-loading {
+	margin: auto;
+	position: relative;
+	top: 45%;
+	width: 14px;
+	height: 14px;
+	background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/ui/loadIndicators/loadIndicator-label._V262087968_.gif");
+	background-position: -59px 0;
+}

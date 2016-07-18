@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container xmlns="http://symfony-project.org/2.0/container">
+	<services>
+	  <service id="OV_Service_IResourceManager" class="OVWP_Service_ResourceManager" />
+	</services>
+</container>
